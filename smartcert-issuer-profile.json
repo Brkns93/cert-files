@@ -1,1 +1,20 @@
-{}
+{
+  "@context": [
+    "https://w3id.org/openbadges/v2",
+    "https://w3id.org/blockcerts/v2"
+  ],
+  "type": "Profile",
+  "id": "https://raw.githubusercontent.com/blockchain-certificates/cert-issuer/master/examples/issuer/profile.json",
+  "name": "Test Issuer",
+  "url": "https://www.testissuer.org",
+  "introductionURL": "https://www.testissuer.org/intro/",
+  "revocationList": "https://raw.githubusercontent.com/blockchain-certificates/cert-issuer/master/examples/issuer/revocation-list.json",
+  "publicKey": [
+    {
+      "id": "ecdsa-koblitz-pubkey:0xD4c0291186058f8A2B78fc8A696C3aF4A41Db7B6",
+      "created": "2024-01-01T00:00:00.000000+00:00"
+    }
+  ],
+  "image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAZAAAAHBCAYAAABHbe2eAAD+k0lEQVR42uydB1yb17n/X/bekkDsZWwwxmzMFnvvLSQEQoihLSGJvZfBNjbYBk/AgBneO952kra3SW+Stmmbrtz2tv3ntrdpmt60TdIE/ucIyVFUCQTG2E7e1/59JL16JSHp6Hzf3/M85xwEQTd029pNA0EI2giSoofBhJs4m2eb4/HpGGdsqo29Vbqds02yszsuxW07JnO7u03GThdc4m5XTEKgs3XKHldscoQLNjXKGRNPcLJKjHW0iot3tExMcLCMT7K3SEyxs4hPszOJS7c1ic2wNUnItDWJgcqSCWdCyMabxGXjDYFMYnNwQHjjmFxF4aT34Uyic/AG4BhDQjZ8vLVJJFBUJgbI2jA6w9okIh3KxjQm1cYiOsXekpDsYBmbaAv+Ljur2Fh7DIHgjImJdsFGRzrhYsPsrWJCHDExAXbmMbsdLSO9XDDJ292wSe7wPdtaJjo4YZLw1taJOPAerFwtAszw+ABDBCnQBdJa+dzQDd3QDd2+2Zu2NZJoZG+aZOmASbB1NItzdbdM8XLFZwZ6YNMj3KwzYt1sUlLcbFOztuFT89xt0vNdsEmFztjEIkfLpEIb49gCG+O4fJwB6Mh1o3LNtaJzzLUis82RyCwoEyQsy0qLkA3vh8fZmcUXOlgmFjlhkkvccYmlOxwzKd6uOVT/bdn0IO+C2hDfQkbo7iJmmF8xOwIo3L+EGxFcwieElAoIoaT6mPAyYWwESRwTTmmEio8oE8eFUUTRoWVCQgipnhBCFsDjI/0LuREBxexQ/yJmMHg++Lz+O3OqvN0zKnc6Z1K2O6WUOljHFTliYwrtLGML8GaEPJx5aI6VYViWhd6eDEMkOE0L8U01REJS4XUoC63gdBO90HSM4Z4Ma8M9AHaRWXhzQraDVWSWo3V0hqtNZJqTTXSKCy4uwQUfF+lsnRrihIn1t7GM83LExbliDMNt8SYEjCUSYgo+d30UMuiGbu",
+  "email": "contact@testissuer.org"
+}
